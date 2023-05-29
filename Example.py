@@ -22,3 +22,9 @@ print("Pop(2)",lista)
 
 lista.reverse()
 print("Reverse: ",lista)
+
+lista.sort()
+print("Sort:    ",lista)
+
+lista.sort(reverse=True)
+print("Sort(r): ",lista)
